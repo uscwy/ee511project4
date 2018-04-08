@@ -1,5 +1,6 @@
 EE 511 Simulation Methods for Stochastic Systems
 Project #4: Investigations on Monte Carlo Methods
+
 [Pi-Estimation]
 ----------------
 Generate n=100 samples of i.i.d 2-dimensional uniform random variables in the unit-square. Count how
@@ -17,8 +18,11 @@ variance of your estimates.
 [Monte Carlo Integration and Variance Reduction Strategies]
 ----------------------------------------------------------------
 Use n=1000 random samples to obtain Monte Carlo estimates for the definite integrals:
+
 (a) [1+sinh(2x)ln(x)]-1, x in [0.8,3]
+
 (b) Exp[-x4 – y4], (x, y) in [-pi, pi]
+
 Calculate the sample variance of the Monte Carlo estimates using a similar method as in problem 1.
 Use the same number of random samples, n=1000, to obtain those Monte Carlo estimates. But this time
 incorporate stratification and importance sampling in the Monte Carlo estimation procedures. Compare
@@ -29,6 +33,7 @@ weaknesses of stratification and importance sampling in Monte Carlo estimation.
 [Test your integral estimator on the following function with your own choice of n samples]
 --------------------------------------------------------------------------------------------
 𝑓(𝑥, 𝑦) = 20 + 𝑥+ + 𝑦+ − 10(𝑐𝑜𝑠[2𝜋 × 𝑥] + 𝑐𝑜𝑠[2𝜋 × 𝑦])
+
 (x, y) in [-5, 5] for f(x,y)
 
 [Turn in]:
